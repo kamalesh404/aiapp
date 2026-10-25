@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04121e" />
+      <stop offset="50%" stop-color="#082238" />
+      <stop offset="100%" stop-color="#020911" />
+    </linearGradient>
+    <linearGradient id="flutterBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02569B" />
+      <stop offset="50%" stop-color="#0175C2" />
+      <stop offset="100%" stop-color="#29B6F6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="240" rx="16" fill="url(#bg)" stroke="#16395b" stroke-width="1.5"/>
+
+  <!-- Flutter Bird / Smartphone Graphic -->
+  <g transform="translate(65, 40)">
+    <!-- Smartphone frame -->
+    <rect width="105" height="160" rx="16" fill="#0a192f" stroke="#29B6F6" stroke-width="2"/>
+    <rect x="8" y="14" width="89" height="132" rx="8" fill="#040d1a"/>
+    <!-- Chat bubbles -->
+    <rect x="15" y="24" width="55" height="18" rx="6" fill="#132f4c"/>
+    <rect x="35" y="48" width="55" height="18" rx="6" fill="#02569B"/>
+    <rect x="15" y="72" width="60" height="18" rx="6" fill="#132f4c"/>
+    <!-- Procedural art square -->
+    <rect x="22" y="98" width="60" height="38" rx="4" fill="#0d2b45" stroke="#29B6F6" stroke-width="1"/>
+    <circle cx="42" cy="114" r="8" fill="#f59e0b" opacity="0.8"/>
+    <polygon points="30,132 50,118 70,132" fill="#10b981" opacity="0.8"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="210" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#flutterBlue)" letter-spacing="1.5">
+    AI Mobile Assistant
+  </text>
+  <text x="210" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#94a3b8">
+    Hybrid Flutter Mobile App · Cloud LLM &amp; DALL-E · Local Procedural Synthesizer
+  </text>
+
+  <!-- Spec Badges -->
+  <g transform="translate(210, 155)">
+    <rect x="0" y="0" width="115" height="24" rx="12" fill="#0c2338" stroke="#1d4872"/>
+    <text x="57" y="16" font-family="sans-serif" font-size="11" fill="#29B6F6" font-weight="600" text-anchor="middle">FLUTTER 3.X / DART</text>
+
+    <rect x="125" y="0" width="115" height="24" rx="12" fill="#0c2338" stroke="#1d4872"/>
+    <text x="182" y="16" font-family="sans-serif" font-size="11" fill="#34d399" font-weight="600" text-anchor="middle">OPENAI STREAMING</text>
+
+    <rect x="250" y="0" width="125" height="24" rx="12" fill="#0c2338" stroke="#1d4872"/>
+    <text x="312" y="16" font-family="sans-serif" font-size="11" fill="#f472b6" font-weight="600" text-anchor="middle">OFFLINE PROCEDURAL</text>
+
+    <rect x="385" y="0" width="115" height="24" rx="12" fill="#0c2338" stroke="#1d4872"/>
+    <text x="442" y="16" font-family="sans-serif" font-size="11" fill="#fbbf24" font-weight="600" text-anchor="middle">HIVE STORAGE</text>
+  </g>
+</svg>
